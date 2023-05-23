@@ -1,14 +1,14 @@
 @font-face {
     font-family: 'Selino';
-    src: url(Fonts/Selino-Regular-BF63bcc47b127b4.otf);
+    src: url(Selino-Regular-BF63bcc47b127b4.otf);
 }
 @font-face {
     font-family: 'Modernist';
-    src: url(Fonts/Sk-Modernist-Regular.otf);
+    src: url(Sk-Modernist-Regular.otf);
 }
 @font-face {
     font-family: 'Glacial Indifference';
-    src: url(Fonts/GlacialIndifference-Regular.otf);
+    src: url(GlacialIndifference-Regular.otf);
 }
 html,body{
     width: 100%;
