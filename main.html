@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://unpkg.com/kursor/dist/kursor.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"></script>
+    <script src="https://kit.fontawesome.com/287d54ca15.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div class="navbar">
+        <div class="animation">
+            <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+            <lottie-player src="https://assets4.lottiefiles.com/temp/lf20_iMaR3E.json"  background="transparent"  speed="1"  style="width: 25%; height: 25%;"  loop  autoplay>
+            </lottie-player>
+        </div>
+        <div class="items-right">
+            <a href="#title" rel="noopener" target="_blank">ABOUT</a>
+            <a href="#contact">CONTACT</a>
+        </div>
+    </div>
+    <div class="logo-container">
+        <h1 class="logo">Raghav Manik</h1>
+    </div>
+    <div class="container"></div>
+    <div class="content">
+        <img src="1.jpg" alt="">
+    </div>
+    
+    
+    
+    <script>
+        ScrollTrigger.create({
+    animation: gsap.from(".logo",{
+        y: "50vh",
+        scale: 6,
+        yPercent: -50,
+    }),
+    scrub: true,
+    trigger: ".content",
+    start: "top bottom",
+    endTrigger: ".content",
+    end: "top center",
+})
+    </script>
+<div class="title" id="title">Elevating your Visions into Reality</div>
+
+<h1 class="contact-us" id="contact">Get into Touch</h1>
+<br><br>
+<h3 class="discuss">Want to discuss your Project</h3>
+<br><br><br>
+<div class="connect-ico">
+
+    <div class="first-con">
+        <input type="text" placeholder="Full Name">
+        <input type="text" placeholder="Email">
+        <button class="message">Send Message</button>
+    </div>
+
+    <div class="second-con">
+        <h3 class="Location">Location</h3>
+        <br>
+        <h5>Mumbai, India</h5>
+        <h5>Hiranandani Gardens</h5>
+        <br>
+        <h3 class="Phone">Phone</h3>
+        <br>
+        <h5>(+91) 8755096711</h5>
+    </div>
+
+    <div class="third-con">
+        <h3 class="Email">Email</h3>
+        <br>
+        <h5>raghav.manik10@gmail.com</h5>
+        <br>
+        <h3 >Social</h3>
+        <br>
+        <div class="social">
+            <a href="https://www.instagram.com/raghav.manik/">instagram</h5>
+            <a href="https://www.facebook.com/raghav.manik.3">facebook</h5>
+            <a href="https://wa.link/kv8jyt">whatsapp</h5>
+        </div>
+    </div>
+    <div class="copyright">&copy;PSYPHER 2023</div>
+
+</div>
+
+
+
+</body>
+    <!-- Cursor -->
+    <script src="https://unpkg.com/kursor"></script>
+    <script>
+        new kursor({
+            type: 2 
+        })
+    </script>
+</html>
